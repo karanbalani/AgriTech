@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kbala.agritech">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".CoopActivity" />
+        <activity android:name=".CoopGetDetails" />
+        <activity android:name=".FeaturesActivity">
+
+        </activity>
+        <activity android:name=".FarmersActivity" />
+        <activity android:name=".RentActivity" />
+        <activity android:name=".AddMachineActivity" />
+        <activity android:name=".ViewMachineActivity" />
+        <activity android:name=".DeleteMachineActivity" />
+        <activity android:name=".PickupActivity" />
+        <activity android:name=".ConfirmPickupActivity" />
+        <activity android:name=".GuidelinesFinal" />
+        <activity android:name=".UserTypeActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity android:name=".MachineTPP" />
+        <activity android:name=".TPPLenderslist"></activity>
+    </application>
+
+</manifest>

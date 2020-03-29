@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/farm"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CoopActivity">
+
+    <TextView
+        android:id="@+id/tvTAgri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff99"
+        android:alpha="0.7"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:text="Select Machine \n
+मशीन का चयन करें" /> />
+
+    <Spinner
+        android:id="@+id/spnTType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff99"
+        android:alpha="0.7"
+        android:scrollbarSize="10dp"
+
+        android:layout_marginTop="28dp"
+        />
+
+    <TextView
+        android:id="@+id/tvTDistrict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff99"
+        android:alpha="0.7"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:text="Select District \n
+जिले का चयन करें" /> />
+
+    <Spinner
+        android:id="@+id/spnTDistrict"
+        android:background="#ffff99"
+        android:alpha="0.7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/btnTGetDetails"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:text="Next \n आगे" />
+
+
+
+
+
+
+</LinearLayout>

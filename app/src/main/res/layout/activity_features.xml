@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/farm"
+    android:layout_height="match_parent"
+    tools:context=".FeaturesActivity">
+
+
+
+    <Button
+        android:id="@+id/btnAcquire"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="40dp"
+        android:background=" #ffff99"
+        android:alpha="0.6"
+        android:layout_weight="1"
+        android:text=" Machine Acquire \n मशीन का अधिग्रहण" />
+
+    <Button
+        android:id="@+id/btnPickup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:textSize="40dp"
+        android:background=" #ffff99"
+        android:alpha="0.6"
+        android:text=" Stubble Pickup \n कचरा पिकअप" />
+
+
+
+</LinearLayout>

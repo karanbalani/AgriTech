@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/farm"
+    tools:context=".PickupActivity">
+
+    <EditText
+        android:id="@+id/etFarmerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Enter your name"/>
+
+    <EditText
+        android:id="@+id/etFarmerPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:hint="Enter your phone number"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/tvStubbleInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff99"
+        android:alpha="0.7"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="#000000"
+        android:text="Please select from checkbox : the type of stubble --- \n
+कृपया चेकबॉक्स से चयन करें : ठूंठ का प्रकार ---"/>
+
+
+
+    <CheckBox
+        android:id="@+id/cbWheat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:text="Wheat / गेहूँ" />
+   
+    <CheckBox
+        android:id="@+id/cbRice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:text="Rice / चावल" />
+
+    <CheckBox
+        android:id="@+id/cbSugarCane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:text="SugarCane / गन्ना " />
+
+    <EditText
+        android:id="@+id/etWeightStub"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:inputType="number"
+        android:text=""
+        android:hint="Enter approximate weight in Kgs."/>
+
+
+    <Button
+        android:id="@+id/btnPickupNext"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:background=" #ffff99"
+        android:alpha="0.7"
+        android:text="Next \n आगे" />
+
+
+
+</LinearLayout>
