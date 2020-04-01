@@ -17,5 +17,5 @@ They can select their district and they will get contact  numbers and details of
 The farmers who have called the third party person will then call the owners for placing the order.
 
 ![](third%20party.jpeg)
-![](third%20party%20page)
-![](third%20party%20msg)
+![](third%20party%20page.jpeg)
+![](third%20party%20msg.jpeg)
